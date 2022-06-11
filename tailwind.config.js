@@ -21,6 +21,10 @@ module.exports = {
       fontSize: {
 
       },
+      backgroundImage: {
+        'hero-mobile': "url('/src/img/mobile/image-header.jpg')",
+        'hero-desktop': "url('/src/img/desktop/image-header.jpg')",
+      },
       width: {
 
       }
