@@ -12,7 +12,7 @@ const Hero = () => {
           <div className='py-12 px-10'>
             <div className='flex justify-between items-center'>
               <img src={logo} className='h-8' alt="Company logo" />
-              <div className="hidden sm:block">
+              <div className="hidden md:block">
                 <div className="flex items-center">
                   <a href="/" className='text-white px-6'>About</a>
                   <a href="/" className='text-white px-6'>Services</a>
@@ -22,7 +22,7 @@ const Hero = () => {
                   </div>
                 </div>
               </div>
-              <div className='sm:hidden'>
+              <div className='md:hidden'>
                 <button>
                   <svg width="24" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M24 16v2H0v-2h24zm0-8v2H0V8h24zm0-8v2H0V0h24z" fill="#FFF" fill-rule="evenodd"/></svg>
                 </button>
