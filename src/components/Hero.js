@@ -31,7 +31,7 @@ const Hero = () => {
           </div>
         </nav>
         <div className="text-center">
-          <h1 className='font-fraunces font-black text-white uppercase my-16'>we are creatives</h1>
+          <h1 className='font-fraunces font-black text-white uppercase my-16 mx-5'>we are creatives</h1>
           <img className='mx-auto h-32' src={arrowDown} alt="Arrow Down" />
         </div>
       </div>
