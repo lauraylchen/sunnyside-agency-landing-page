@@ -2,6 +2,7 @@ import transformDesktop from '../img/desktop/image-transform.jpg';
 import transformMobile from '../img/mobile/image-transform.jpg';
 import standoutDesktop from '../img/desktop/image-stand-out.jpg';
 import standoutMobile from '../img/mobile/image-stand-out.jpg';
+import Content from './subComponents/Content';
 
 const Features = () => {
 
@@ -13,7 +14,8 @@ const Features = () => {
       imgMobile: transformMobile,
       alt:'An egg on a yellow background',
       imgClass: 'order-2',
-      contentClass: 'order-1'
+      contentClass: 'order-1',
+      linkClass: 'hover:decoration-yellow decoration-yellow/25'
     },
     {
       title: 'Stand out to the right audience',
@@ -22,12 +24,34 @@ const Features = () => {
       imgMobile: standoutMobile,
       alt:'A pink cup on a pink background',
       imgClass: 'order-1',
-      contentClass: 'order-2'
+      contentClass: 'order-2',
+      linkClass: 'hover:decoration-softRed decoration-softRed/25'
     },
   ];
 
+  const defImgMobile = 'lg:hidden object-cover w-full '
+  const defImgDesktop = 'hidden lg:block object-cover w-full h-full '
+
+  const mappedFeatures = features.map((feature) => {
+    const {title, content, imgDesktop, imgMobile, alt, imgClass, contentClass, linkClass} = feature
+    return (
+      <div className='lg:grid lg:grid-cols-2'>
+        <img src={imgMobile} className={defImgMobile + imgClass} alt={alt} />
+        <img src={imgDesktop} className={defImgDesktop + imgClass} alt={alt} />
+        <Content
+          featureTitle={title}
+          featureContent={content}
+          featureClass={contentClass}
+          featureLink={linkClass}
+        />
+      </div>
+    )
+  })
+
   return (
-    <div></div>
+    <div>
+      {mappedFeatures}
+    </div>
   );
 }
 
