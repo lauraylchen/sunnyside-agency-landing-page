@@ -27,8 +27,12 @@ module.exports = {
       },
       width: {
 
+      },
+      spacing: {
+        '100': '26rem',
+        '128': '32rem',
       }
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }

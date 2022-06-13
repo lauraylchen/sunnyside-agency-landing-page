@@ -28,3 +28,22 @@ h2 {
   font-size: 2.5rem;
   line-height: 3rem;
 }
+
+/* Dropdown Menu */
+.triangle:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 15px solid transparent;
+  border-right: 15px solid white;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid white;
+  right: 0;
+  top: -30px;
+}
+
+.menu :where(li:not(.menu-title):not(:empty)) > :where(*:not(ul):hover) {
+  background-color: white;
+  opacity: 1;
+}
