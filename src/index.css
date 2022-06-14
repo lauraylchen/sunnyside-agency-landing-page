@@ -30,6 +30,10 @@ h2 {
   line-height: 3rem;
 }
 
+h3 {
+  font-size: 1.75rem;
+}
+
 /* Dropdown Menu */
 .triangle:before {
   content: "";
