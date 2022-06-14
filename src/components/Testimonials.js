@@ -32,15 +32,15 @@ const Testimonials = () => {
     const {name, position, avatar, content, alt} = client;
 
     return (
-      <div>
+      <div className='text-center'>
         <div class="avatar">
           <div class="w-20 rounded-full">
             <img src={avatar} className='' alt={alt} />
           </div>
         </div>
-        <p>{content}</p>
-        <h5>{name}</h5>
-        <h6>{position}</h6>
+        <p className='text-veryDarkGrayBlue'>{content}</p>
+        <h5 className='font-fraunces font-black'>{name}</h5>
+        <h6 className='text-grayBlue text-sm capitalize'>{position}</h6>
       </div>
     )
   });
@@ -49,7 +49,7 @@ const Testimonials = () => {
     <div className='w-screen lg:h-screen'>
       <div>
         <h4 className='font-fraunces uppercase text-grayBlue text-center'>Client testimonials</h4>
-        <div className='lg:flex lg:justify-center'>
+        <div className='lg:flex lg:justify-center lg:content-center'>
           {mappedClients}
         </div>
       </div>
