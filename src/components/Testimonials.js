@@ -33,7 +33,11 @@ const Testimonials = () => {
 
     return (
       <div>
-        <img src={avatar} alt={alt} />
+        <div class="avatar">
+          <div class="w-20 rounded-full">
+            <img src={avatar} className='' alt={alt} />
+          </div>
+        </div>
         <p>{content}</p>
         <h5>{name}</h5>
         <h6>{position}</h6>
