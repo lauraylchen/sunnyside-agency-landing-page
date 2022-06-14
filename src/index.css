@@ -34,6 +34,10 @@ h3 {
   font-size: 1.75rem;
 }
 
+h4 {
+  letter-spacing: 0.2em;
+}
+
 /* Dropdown Menu */
 .triangle:before {
   content: "";

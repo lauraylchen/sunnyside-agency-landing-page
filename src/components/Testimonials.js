@@ -32,24 +32,24 @@ const Testimonials = () => {
     const {name, position, avatar, content, alt} = client;
 
     return (
-      <div className='text-center'>
+      <div className='text-center mx-5 py-12'>
         <div class="avatar">
-          <div class="w-20 rounded-full">
+          <div class="w-24 lg:w-20 rounded-full">
             <img src={avatar} className='' alt={alt} />
           </div>
         </div>
-        <p className='text-veryDarkGrayBlue'>{content}</p>
-        <h5 className='font-fraunces font-black'>{name}</h5>
+        <p className='text-veryDarkGrayBlue my-20'>{content}</p>
+        <h5 className='font-fraunces font-black mb-2'>{name}</h5>
         <h6 className='text-grayBlue text-sm capitalize'>{position}</h6>
       </div>
     )
   });
 
   return (
-    <div className='w-screen lg:h-screen'>
-      <div>
-        <h4 className='font-fraunces uppercase text-grayBlue text-center'>Client testimonials</h4>
-        <div className='lg:flex lg:justify-center lg:content-center'>
+    <div className='w-screen lg:h-screen grid place-content-center'>
+      <div className='py-20 lg:w-4/5 lg:m-auto'>
+        <h4 className='font-fraunces uppercase text-grayBlue text-center text-xl font-black mb-6'>Client testimonials</h4>
+        <div className='lg:flex lg:justify-center'>
           {mappedClients}
         </div>
       </div>
