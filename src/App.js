@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import Features from "./components/Features";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Photos from "./components/Photos";
 import Services from "./components/Services";
@@ -13,6 +14,7 @@ function App() {
       <Services />
       <Testimonials />
       <Photos />
+      <Footer />
     </Fragment>
   );
 }
