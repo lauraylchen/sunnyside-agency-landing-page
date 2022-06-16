@@ -57,6 +57,16 @@ h4 {
   opacity: 1;
 }
 
+.underline-link-red {
+  background-color: #FE7867;
+  opacity: 0.5;
+}
+
+.underline-link-yellow {
+  background-color: #FAD400;
+  opacity: 0.5;
+}
+
 /* Footer */
 .social-icon:hover path {
   fill: white;

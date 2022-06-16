@@ -33,8 +33,8 @@ const Testimonials = () => {
 
     return (
       <div className='text-center mx-5 py-12'>
-        <div class="avatar">
-          <div class="w-24 lg:w-20 rounded-full">
+        <div className="avatar">
+          <div className="w-24 lg:w-20 rounded-full">
             <img src={avatar} className='' alt={alt} />
           </div>
         </div>

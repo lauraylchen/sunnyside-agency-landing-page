@@ -23,11 +23,11 @@ const Hero = () => {
                 </div>
               </div>
               <div className='md:hidden'>
-                <div class="dropdown dropdown-end">
-                  <label tabindex="0" class="btn btn-link p-0">
-                    <svg width="24" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M24 16v2H0v-2h24zm0-8v2H0V8h24zm0-8v2H0V0h24z" fill="#FFF" fill-rule="evenodd"/></svg>
+                <div className="dropdown dropdown-end">
+                  <label tabIndex="0" className="btn btn-link p-0">
+                    <svg width="24" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M24 16v2H0v-2h24zm0-8v2H0V8h24zm0-8v2H0V0h24z" fill="#FFF" fillRule="evenodd"/></svg>
                   </label>
-                  <ul tabindex="0" class="dropdown-content menu p-8 shadow bg-white w-80% triangle mt-10">
+                  <ul tabIndex="0" className="dropdown-content menu p-8 shadow bg-white w-80% triangle mt-10">
                     <li><a href='/' className='text-darkGrayBlue justify-center'>About</a></li>
                     <li><a href='/' className='text-darkGrayBlue justify-center'>Services</a></li>
                     <li><a href='/'className='text-darkGrayBlue justify-center'>Projects</a></li>
