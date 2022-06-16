@@ -34,10 +34,10 @@ const Features = () => {
   const defImgMobile = 'lg:hidden object-cover w-full '
   const defImgDesktop = 'hidden lg:block object-cover w-full h-full '
 
-  const mappedFeatures = features.map((feature) => {
+  const mappedFeatures = features.map((feature, index) => {
     const {title, content, imgDesktop, imgMobile, alt, imgClass, contentClass, linkClass, hoverColor} = feature
     return (
-      <div className='lg:grid lg:grid-cols-2'>
+      <div key={index} className='lg:grid lg:grid-cols-2'>
         <img src={imgMobile} className={defImgMobile + imgClass} alt={alt} />
         <img src={imgDesktop} className={defImgDesktop + imgClass} alt={alt} />
         <Content

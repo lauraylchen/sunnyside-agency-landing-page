@@ -32,11 +32,11 @@ const Services = () => {
   const defP = 'w-11/12 lg:w-8/12 mx-auto ';
 
 
-  const mappedServices = services.map((service) => {
+  const mappedServices = services.map((service, index) => {
     const {title, content, imgDesktop, imgMobile, alt, imgClass, contentClass} = service;
 
     return (
-      <div className='relative'>
+      <div key={index} className='relative'>
         <img src={imgMobile} className={defImgMobile + imgClass} alt={alt} />
         <img src={imgDesktop} className={defImgDesktop + imgClass} alt={alt} />
         <div className='absolute bottom-0 text-center h-1/3 lg:h-1/2 xl:h-2/5'>

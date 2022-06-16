@@ -28,11 +28,11 @@ const Testimonials = () => {
     }
   ];
 
-  const mappedClients = clients.map((client) => {
+  const mappedClients = clients.map((client, index) => {
     const {name, position, avatar, content, alt} = client;
 
     return (
-      <div className='text-center mx-5 py-12'>
+      <div key={index} className='text-center mx-5 py-12'>
         <div className="avatar">
           <div className="w-24 lg:w-20 rounded-full">
             <img src={avatar} className='' alt={alt} />
