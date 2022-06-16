@@ -10,10 +10,12 @@ function App() {
   return (
     <Fragment>
       <Hero />
-      <Features />
-      <Services />
-      <Testimonials />
-      <Photos />
+      <main>
+        <Features />
+        <Services />
+        <Testimonials />
+        <Photos />
+      </main>
       <Footer />
     </Fragment>
   );
