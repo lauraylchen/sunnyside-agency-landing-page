@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Sunnyside Agency solution URL](https://www.frontendmentor.io/solutions/react-app-tailwindcss-and-daisy-ui-responsive-grid-css-and-flexbox-Vi0kQ0YFn5)
 - Live Site URL: [Sunnyside Agency Live Web](https://sunnysideagencychallenge.netlify.app)
 - Code for Site: [Github Repository](https://github.com/lauraylchen/sunnyside-agency-landing-page)
 
