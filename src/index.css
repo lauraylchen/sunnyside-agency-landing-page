@@ -56,3 +56,7 @@ h4 {
   background-color: white;
   opacity: 1;
 }
+
+.social-icon:hover path {
+  fill: white;
+}

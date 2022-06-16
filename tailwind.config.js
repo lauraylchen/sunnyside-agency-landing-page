@@ -9,6 +9,7 @@ module.exports = {
         'darkDesatCyan': '#25564B',
         'darkBlue': '#19536B',
         'darkModCyan': '#458C7E',
+        'cyan': '#91D4C6',
         'veryDarkDesatBlue': '#23303E',
         'veryDarkGrayBlue': '#5A636C',
         'darkGrayBlue': '#818498',
@@ -18,18 +19,16 @@ module.exports = {
       fontFamily: {
         'fraunces': ['Fraunces', 'serif']
       },
-      fontSize: {
-
-      },
       backgroundImage: {
         'hero-mobile': "url('/src/img/mobile/image-header.jpg')",
         'hero-desktop': "url('/src/img/desktop/image-header.jpg')",
       },
-      width: {
-
-      },
       spacing: {
         '80%': '80vw',
+      },
+      height: {
+        '45%': '45vh',
+        '60%': '60vh'
       }
     },
   },
