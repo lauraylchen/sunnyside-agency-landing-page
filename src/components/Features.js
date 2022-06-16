@@ -15,7 +15,8 @@ const Features = () => {
       alt:'An egg on a yellow background',
       imgClass: 'order-2',
       contentClass: 'order-1',
-      linkClass: 'underline-link-yellow'
+      linkClass: 'underline-link-yellow',
+      hoverColor: 'bg-yellow'
     },
     {
       title: 'Stand out to the right audience',
@@ -25,7 +26,8 @@ const Features = () => {
       alt:'A pink cup on a pink background',
       imgClass: 'order-1',
       contentClass: 'order-2',
-      linkClass: 'underline-link-red'
+      linkClass: 'underline-link-red',
+      hoverColor: 'bg-softRed'
     },
   ];
 
@@ -33,7 +35,7 @@ const Features = () => {
   const defImgDesktop = 'hidden lg:block object-cover w-full h-full '
 
   const mappedFeatures = features.map((feature) => {
-    const {title, content, imgDesktop, imgMobile, alt, imgClass, contentClass, linkClass} = feature
+    const {title, content, imgDesktop, imgMobile, alt, imgClass, contentClass, linkClass, hoverColor} = feature
     return (
       <div className='lg:grid lg:grid-cols-2'>
         <img src={imgMobile} className={defImgMobile + imgClass} alt={alt} />
@@ -43,6 +45,7 @@ const Features = () => {
           featureContent={content}
           featureClass={contentClass}
           featureLink={linkClass}
+          featureHover={hoverColor}
         />
       </div>
     )

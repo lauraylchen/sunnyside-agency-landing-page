@@ -57,6 +57,14 @@ h4 {
   opacity: 1;
 }
 
+.hide {
+  display: none;
+}
+
+.revealed:hover .hide {
+  display: block;
+}
+
 .underline-link-red {
   background-color: #FE7867;
   opacity: 0.5;
