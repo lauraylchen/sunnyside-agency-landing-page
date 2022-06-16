@@ -15,7 +15,7 @@ const Features = () => {
       alt:'An egg on a yellow background',
       imgClass: 'order-2',
       contentClass: 'order-1',
-      linkClass: 'hover:decoration-yellow decoration-yellow/25'
+      linkClass: 'bg-yellow/50'
     },
     {
       title: 'Stand out to the right audience',
@@ -25,7 +25,7 @@ const Features = () => {
       alt:'A pink cup on a pink background',
       imgClass: 'order-1',
       contentClass: 'order-2',
-      linkClass: 'hover:decoration-softRed decoration-softRed/25'
+      linkClass: 'bg-softRed/50'
     },
   ];
 
