@@ -1,4 +1,58 @@
-# Getting Started with Create React App
+# Frontend Mentor - Sunnyside agency landing page solution
+
+This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
+- [Getting Started with Create React App](#getting-started-with-create-react-app)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+
+### Screenshot
+
+![Mobile screenshot of full website](./src/img/screenshots/sunnysideagency-mobile.png)
+![Desktop screenshot of full website](./src/img/screenshots/sunnysideagency-desktop.png)
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Sunnyside Agency Live Web](https://sunnysideagencychallenge.netlify.app)
+- Code for Site: [Github Repository](https://github.com/lauraylchen/sunnyside-agency-landing-page)
+
+## My process
+
+### Built with
+
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [TailwindCSS](https://tailwindcss.com) - For styles
+- [DaisyUI](https://daisyui.com) - For styles components
+
+## Author
+
+- Portfolio - [Laura You-Li Chen](https://lauraylchen.netlify.app)
+- Github - [@lauraylchen](https://github.com/lauraylchen)
+- Frontend Mentor - [@lauraylchen](https://www.frontendmentor.io/profile/lauraylchen)
+- Twitter - [@lauraylchen](https://www.twitter.com/lauraylchen)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
